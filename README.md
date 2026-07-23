@@ -2,12 +2,12 @@ This project uses Python, Pandas, and Matplotlib to analyze movie data from Rott
 
 The program demonstrates how data can be filtered, analyzed, and displayed using graphs to better understand how one movie compares to others in its genre.
 
-##Features
+Features
 - Loads movie data from a CSV file using Pandas.
 - Stores and displays information about my favorite movie.
 - Filters the dataset to only include Action & Adventure movies.
 
-##Calculates:
+Calculates:
 - Minimum audience rating
 - Maximum audience rating
 - Mean audience rating
@@ -18,7 +18,7 @@ The program demonstrates how data can be filtered, analyzed, and displayed using
 - Provides written explanations of each visualization.
 
 
-##The project uses the rotten_tomatoes_movies.csv dataset, which contains:
+The project uses the rotten_tomatoes_movies.csv dataset, which contains:
 - Movie title
 - Year released
 - Critic rating
