@@ -1,35 +1,65 @@
-# Talking Data: Comparing Favorites Starter Code
-Fork this project to get started on the project.
+This project uses Python, Pandas, and Matplotlib to analyze movie data from Rotten Tomatoes. It compares my favorite movie, Avengers: Infinity War, with other Action & Adventure movies in the dataset by calculating statistics and creating visualizations.
 
-### Project Requirements
-Your project should:
-- Use a variable to store and print the data of your favorite movie.
-- Use .loc to filter the data set to a genre, and store it in a new variable.
-- Calculate the min, max, mean, and median of a column.
-- Print how the min, max mean, and median compare to your favorite movie's value.
-- Create a histogram and use a print statement to describe it.
-- Create a scatter plot and use a print statement to describe the relationship between two variables.
+The program demonstrates how data can be filtered, analyzed, and displayed using graphs to better understand how one movie compares to others in its genre.
 
-### Extensions
-You can extend your project further by:
-- Plot your favorite movie
-- Explore more data
-- Visualize data creatively
+Features
+Loads movie data from a CSV file using Pandas.
+Stores and displays information about my favorite movie.
+Filters the dataset to only include Action & Adventure movies.
+Calculates:
+Minimum audience rating
+Maximum audience rating
+Mean audience rating
+Median audience rating
+Compares my favorite movie's audience rating with these statistics.
+Creates a histogram showing the distribution of audience ratings.
+Creates a scatter plot comparing audience ratings and critic ratings.
+Provides written explanations of each visualization.
+Technologies Used
+Python
+Pandas
+Matplotlib
+Dataset
 
-###  Attributions
-The rotten_tomatoes_movies.csv data was originally scrapped by Stefano Leone and is available on Kaggle for CC0:Public Domain Use: https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset?select=rotten_tomatoes_movies.csv
+The project uses the rotten_tomatoes_movies.csv dataset, which contains:
 
-*If you used any code, ideas, images, or resources from another person or group of people, tell us about it here. Make sure it is in the public domain, has a license that allows you to use it, or is one of your own.
+Movie title
+Year released
+Critic rating
+Audience rating
+Genres
 
----
+The original dataset was created by Stefano Leone and published on Kaggle under the CC0 Public Domain License.
 
-## File Overview
+How to Run
+Download or clone this repository.
+Make sure Python is installed.
 
-### ← main.py
-This is where you will write your main program.
+Install the required libraries if needed:
 
-### ← README.md
-README.md file give you more documentation and information about a program. They are super helpful for describing what a program should do, any issues you've encountered, changes you want to make, and more. 
+pip install pandas matplotlib
 
-### ← rotten_tomatoes_movies.csv
-This is a csv file containing data scraped from Rotten Tomatoes by Stefano Leone. The data was made modified to make student usability easier. Modifications include: Creating the year_released column based on original_release_date, dropping NA values, and selecting out the columns: movie_title, year_released, critic_rating, audience_rating, genres.
+Run the program:
+
+python main.py
+What I Learned
+
+Through this project, I practiced:
+
+Reading CSV files with Pandas
+Filtering data using .loc
+Calculating descriptive statistics
+Creating histograms and scatter plots
+Interpreting data visualizations
+Writing clean, organized Python code
+Future Improvements
+Compare multiple favorite movies.
+Add more genres for comparison.
+Create additional charts such as box plots or bar graphs.
+Allow the user to choose a movie and genre as input.
+Attribution
+
+Dataset:
+Rotten Tomatoes Movies and Critic Reviews Dataset by Stefano Leone (Kaggle, CC0 Public Domain).
+
+All program code was written by me for this educational project.
